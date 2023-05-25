@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+section {
+    display: flex;
+}
+
+/* About section */
+
+.page {
+    background-color: rgb(144, 255, 218);
+    width: 80%;
+    height: 625px;
+    margin: 100px auto;
+    box-shadow: rgb(224, 224, 224) 4px 5px 0px;
+}
+
+.about {
+    background-color: rgb(243, 243, 48);
+    width: 45%;
+    height: 100%;
+    padding: 40px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile h2 {
+    padding: 15px 0 5px 0;
+}
+
+.about-me {
+    display: flex;
+    padding: 30px 0 0 0;
+}
+
+.about-text, .interest {
+    width: 50%;
+}
+
+.line {
+    height: 100;
+    border-left: 2px solid black;
+}
+
+.about-text h4, .interest h4 {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.interest ul {
+    padding: 0 0 0 50px;
+}
+
+.interest ul li {
+    padding-inline-start: 0px;
+    padding-top: 5px;
+}
+
+.about-text p {
+    text-align: justify;
+    padding: 0 10px 0 0;
+}
+
+/* Form section */
+
+.form {
+    width: 55%;
+    padding: 50px 60px;
+}
+
+.form h2 {
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+.user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user-details .input-box {
+    width:calc(100% / 2 - 20px);
+    margin: 10px 0 5px 0;
+}
+
+.user-details .input-box input {
+    height: 6vh;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+.user-details .input-box:nth-child(5) {
+    width: 100%;
+}
+
+.user-details .input-box:last-child {
+    width: 100%;
+}
+
+.user-details .input-box span {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text-area {
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    resize: none;
+}
